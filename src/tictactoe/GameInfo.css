@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+.NavBar {
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+.info {
+    font-size: 22px;
+}
+
+.gameinfo {
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.gameinfo h1{
+    font-size: 40px;
+}
+
+.imgbox img{
+    width: 50px;
+    height: 50px;
+    transition: width 1s ease-in-out;
+}
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
